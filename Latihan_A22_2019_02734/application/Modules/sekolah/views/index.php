@@ -2,7 +2,7 @@
 <h2>Selamat Datang Di Mana Hayo...</h2>
 <h3>Tambah Daftar Siswa / Sekolah</h3>
 
-<form action="" method="post" enctype="multipart/form-data">
+<form action="<?= base_url('sekolah/awal') ?>" method="post" enctype="multipart/form-data">
 
     <div class="form-group">
         <label for="nama">Nama </label>
